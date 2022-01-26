@@ -15,5 +15,5 @@ export PATH="/usr/local/bootstrap-go/go/bin:$PATH"
 
 echo "--> Creating output tarball"
 rm -rf /usr/local/go/src
-rm -rf /usr/local/go/obj/go-build
+rm -rf /usr/local/go/pkg/obj/go-build
 cd /usr/local && tar -zcvf /build/go1.17.6.ubuntu-trusty-amd64.tar.gz go
